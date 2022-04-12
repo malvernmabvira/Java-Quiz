@@ -87,6 +87,12 @@ public class Home implements ActionListener {
 	        }
 		}
 		
+		
+		if(e.getSource() == quiz) {
+			frame.dispose();
+			new Quiz();
+		}
+		
 	}
 
 }
